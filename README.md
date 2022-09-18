@@ -78,3 +78,8 @@ terraform login
 # generate a token and add it to CLI
 
 ```
+
+We could also add CLI token as environment variable, to use terraform CLI directly without using `terraform login` flow
+```bash
+export TF_TOKEN_app_terraform_io=TOKEN_FOR_APP_TERRAFORM_IO
+```
